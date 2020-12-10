@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    font-family: 'Futura PT';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #F9F9F9;
+    background-image: url(../images/bg@2x.png);
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+.container{
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.container_1x{
+    width: 1500px;
+    margin: 0 auto;
+}
