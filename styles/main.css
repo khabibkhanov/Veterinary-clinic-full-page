@@ -1125,6 +1125,11 @@ input:focus{
     margin-right: 120px;
 }
 
+.hero_items:hover .contact_hero_img{
+    transform: translateY(-5px);
+    transition: all ease 0.5s;
+}
+
 .contact_hero_img{
     width: 76px;
     height: 72px;
