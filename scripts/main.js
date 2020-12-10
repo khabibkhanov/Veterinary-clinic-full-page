@@ -1,7 +1,7 @@
 var modalClick = document.querySelector('#modal')
 var overlay = document.querySelector ('.overlay')
 var modalWindow = document.querySelector ('.modal')
-var modalX = document.querySelector ('.modal-x')
+var modalX = document.querySelector ('.modal_x')
 
 
 modalClick.addEventListener('click', function(e) {
