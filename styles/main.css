@@ -281,6 +281,14 @@
 /* Site Hero */
 
 .site_hero{
+    background-image: url(../images/Group\ 60.png), url(../images/Group\ 61.png);
+    background-position: -20px -100px , right bottom;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 350px;
+}
+
+.hero_inner{
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -296,16 +304,6 @@
        -moz-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 300px;
-    background-image: url(../images/Group\ 60.png), url(../images/Group\ 61.png);
-    background-position: -20px -100px , right bottom;
-    background-repeat: no-repeat;
-    padding-top: 150px;
-    padding-bottom: 350px;
-}
-
-.hero_inner{
-    margin-right: 60px;
 }
 
 .big_heading{
@@ -667,7 +665,10 @@ blockquote::after{
     background-image: url(../images/Mask\ Group\ \(1\).png);
     width: 100%;
     padding: 90px;
+    background-position: center;
+    background-size: cover;
     padding-left: 200px;
+    background-repeat: no-repeat;
     position: relative;
     margin-bottom: 216px;
 }
@@ -1058,11 +1059,13 @@ li .address_link.address_link.house::before{
 }
 
 .about_item:hover{
-    opacity: 0.7;
+    opacity: 0.9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .about_item:active{
-    opacity: 0.5;
+    opacity: 0.8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .logo:hover{
